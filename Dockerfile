@@ -6,6 +6,6 @@ WORKDIR /app
 COPY . .
 # Compile the Java program
 RUN javac Sample.java
-# Command to run the program
+# Command to run the programJJJ
 CMD ["java", "Sample"]
 
